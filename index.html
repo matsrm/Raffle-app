@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Raffle</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Raffle</h1>
+  </header>
+  
+  <div class="container">
+    <form id="entry">
+      <label for="name">Enter names:</label>
+      <input type="text" id="name" required>
+      <button type="submit">Enter</button>
+    </form>
+    
+    <div id="participants-list"></div>
+    
+    <div id="winner-display"></div>
+    
+    <button id="draw-button">Draw</button>
+    <button id="reset-button">Reset</button>
+  </div>
+  
+  <script src="main.js"></script>
+</body>
+</html>
